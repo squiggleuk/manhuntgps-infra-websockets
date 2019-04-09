@@ -1,4 +1,4 @@
-# manhuntgps-serverless-websockets
+# manhuntgps-infra-websockets
 
 Using the serverless framework, we deploy the following:
  - Lambda functions (Python 3.7)
@@ -12,7 +12,7 @@ Using the serverless framework, we deploy the following:
 **onDisconnect** When a client disconnects, we remove them from the database.
 
 
-#### Getting it going...
+Getting it going...
 ```
 sls plugin install -n serverless-python-requirements
 sls deploy
