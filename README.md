@@ -17,3 +17,5 @@ Getting it going...
 sls plugin install -n serverless-python-requirements
 sls deploy
 ```
+
+Use `wscat -c wss://url` to connect, and send a message with `{"action":"updateLocation", "data":"hello world"}`
