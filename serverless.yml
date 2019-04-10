@@ -30,7 +30,6 @@ provider:
 
 plugins:
   - serverless-python-requirements
-
 functions:
   updateLocation:
     handler: handler.updateLocation

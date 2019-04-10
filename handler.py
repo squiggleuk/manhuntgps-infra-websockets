@@ -33,7 +33,10 @@ def updateLocation(event, context):
     
     message = json.loads(event['body'])
     body = {
-        "message": message['data']
+        'action': 'updateLocation',
+        'playerId': message['playerId'],
+        'lat': message['lat'],
+        'lng': message['lng']
     }
 
     dynamodb = boto3.resource('dynamodb')
